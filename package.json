@@ -1,0 +1,48 @@
+{
+  "name": "sipl_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cliui": "^8.0.1",
+    "ansi-styles": "^4.3.0",
+    "ansi-regex": "^5.0.1",
+    "color-convert": "^2.0.1",
+    "chalk": "^4.1.2",
+    "color-name": "^1.1.4",
+    "escalade": "^3.1.1",
+    "date-fns": "^2.30.0",
+    "emoji-regex": "^8.0.0",
+    "concurrently": "^8.0.1",
+    "get-caller-file": "^2.0.5",
+    "has-flag": "^4.0.0",
+    "is-fullwidth-code-point": "^3.0.0",
+    "lodash": "^4.17.21",
+    "require-directory": "^2.1.1",
+    "regenerator-runtime": "^0.13.11",
+    "spawn-command": "^0.0.2-1",
+    "string-width": "^4.2.3",
+    "shell-quote": "^1.8.1",
+    "strip-ansi": "^6.0.1",
+    "rxjs": "^7.8.1",
+    "supports-color": "^8.1.1",
+    "wrap-ansi": "^7.0.0",
+    "tslib": "^2.5.0",
+    "tree-kill": "^1.2.2",
+    "yargs-parser": "^21.1.1",
+    "yargs": "^17.7.2",
+    "y18n": "^5.0.8"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client" : "cd ./client/sipltask && npm start",
+    "server": "cd server && nodemon index.js",
+    "start": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,40 @@
+ul li{
+  list-style-type: none;
+  float: left;
+  margin: 10px 100px;
+  color: white;
+  padding: 5px;
+  border-radius: 7px;
+  transition: all ease .8s;
+}
+
+ul li:hover{
+    background-color: red;
+    transition: all ease .8s;
+}
+
+.img1{
+ background-size: 100% 100%;
+ background-size:cover;
+ width:1520px;
+ padding: 0px;
+}
+@media(max-width:767px){
+  .a1{
+      order:2;
+  }
+  .a2{
+      order:1;
+  }
+  ul li{
+    list-style-type: none;
+    margin: 10px 12px;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    transition: all ease .8s;
+  }
+  .r{
+    text-align: center;
+  }
+  }
